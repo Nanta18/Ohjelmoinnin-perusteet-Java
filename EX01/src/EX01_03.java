@@ -16,6 +16,8 @@
 			System.out.println("Isompi numero on " + Math.max(numero_01, numero_02));
 			
 			System.out.println("Tulostetaanko myos pienempi luku?");
+
+			kayttajaNumero.close();
 			
 			//Ei käsketty tehdä mitään tolla tuloksella
 		}

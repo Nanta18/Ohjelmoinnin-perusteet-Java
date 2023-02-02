@@ -14,6 +14,7 @@
 			int numero_02 = kayttajaNumero.nextInt();
 			
 			System.out.println("Isompi numero on " + Math.max(numero_01, numero_02));
+			kayttajaNumero.close();
 		}
 	
 	}

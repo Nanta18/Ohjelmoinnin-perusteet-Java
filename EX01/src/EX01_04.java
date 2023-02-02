@@ -1,5 +1,4 @@
-	import java.util.Arrays;
-import java.util.Collections;
+import java.util.Arrays;
 import java.util.Scanner;
 	
 	public class EX01_04 {
@@ -23,6 +22,7 @@ import java.util.Scanner;
 			
 			Arrays.sort(numerot);
 			System.out.println(Arrays.asList(numerot));
+			kayttajaNumero.close();
 		}
 	
 	}

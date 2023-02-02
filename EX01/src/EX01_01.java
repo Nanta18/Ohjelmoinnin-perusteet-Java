@@ -4,7 +4,6 @@ public class EX01_01 {
 
 		int a = 5;
 		int b = 3;
-		int c = 0;
 		boolean pariton = true;
 		boolean onkoNollaTaiKuusiEiMolemmat = true;
 		boolean vikaTehtäväBoolean = true;
