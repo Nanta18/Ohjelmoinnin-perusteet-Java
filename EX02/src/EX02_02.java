@@ -13,11 +13,12 @@ public static void main(String[] args) {
 		int i = 0;
 		int summa = 0;
 		int edellinen = 5;
+		int syote = 0000;
 		
 		while (true) {
-			if(i != edellinen || i != -1) {
-			edellinen = i;
-			int syote = kyselija.nextInt(); 
+			if(i != edellinen) {
+			edellinen = syote;
+			syote = kyselija.nextInt(); 
 			summa = summa + syote;
 			i = syote;
 			} else {
