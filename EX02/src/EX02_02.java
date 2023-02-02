@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	static void lukuKysyja() {
 		
 		Scanner kyselija = new Scanner(System.in); 
-		System.out.println("Anna numero, -1 lopettaa");
+		System.out.println("Anna numero, kaksi samaa perkäkkäin lopettaa");
 
 		int i = 0;
 		int summa = 0;
@@ -22,7 +22,6 @@ public static void main(String[] args) {
 			summa = summa + syote;
 			i = syote;
 			} else {
-				System.out.println("Toimii");
 				break;
 			}
 			
