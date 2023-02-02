@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class EX02_03_A {
     public static void main(String[] args) {
         luotteleLukuja();
