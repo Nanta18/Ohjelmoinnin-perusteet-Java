@@ -16,7 +16,7 @@ public class EX01_01 {
 			pariton = false;
 		}
 		
-		//tehtävä h, Tää on tyhmää
+		//tehtävä h
 		if((a == 0) == true && (b == 6) == true) {
 			onkoNollaTaiKuusiEiMolemmat = false;
 		} else if (a == 0 || b == 6) {
