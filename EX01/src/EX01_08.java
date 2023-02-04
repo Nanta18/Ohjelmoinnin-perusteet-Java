@@ -25,5 +25,3 @@ public class EX01_08 {
         kyselija.close();
     }
 }
-
-
