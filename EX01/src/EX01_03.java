@@ -16,10 +16,17 @@
 			System.out.println("Isompi numero on " + Math.max(numero_01, numero_02));
 			
 			System.out.println("Tulostetaanko myos pienempi luku?");
+			System.out.println("1. Tulostetaan");
+			System.out.println("2. Ei tulosteta");
+
+			int vastaus = kayttajaNumero.nextInt();
+			
+			if(vastaus == 1) {
+				System.out.println("Pienempi numero on " + (Math.min(numero_01, numero_02)));
+			} 
 
 			kayttajaNumero.close();
 			
-			//Ei käsketty tehdä mitään tolla tuloksella
 		}
 	
 	}
