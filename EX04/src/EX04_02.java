@@ -15,6 +15,13 @@ public class EX04_02 {
        System.out.println("Taulukon suurin luku on " + haeMaximi(taulukko));
        System.out.println("Taulukon nelioiden summa on " + haeNelioidenSummat(taulukko));
 
+       int tutkittuNumero = 0;
+       if(onkoTaulukossa(taulukko, tutkittuNumero)) {
+            System.out.println("Taulukossa on " + tutkittuNumero);
+       } else {
+            System.out.println("Taulukossae ei ole " + tutkittuNumero);
+       }
+
     }
     public static int haeMaximi(int[][] taulukko) {
         
@@ -42,5 +49,19 @@ public class EX04_02 {
           }
 
         return nelioidenSumma;
+    }
+
+    public static boolean onkoTaulukossa(int[][] taulukko, int tutkittuNumero) {
+        boolean sisaltaa = false;
+
+        for (int i = 0; i < taulukko.length; i++) {
+            for (int j = 0; j < taulukko[i].length; j++) {
+                if (taulukko[i][j] == tutkittuNumero) {
+                    sisaltaa = true;
+                    break;
+                }
+            }
+        }
+        return sisaltaa;
     }
 }
