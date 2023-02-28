@@ -28,5 +28,6 @@ public class EX04_07 {
       for (int l : luvut) {
           System.out.println(l);
         }
+        kyselija.close();
     }
 }
