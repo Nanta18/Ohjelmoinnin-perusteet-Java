@@ -1,6 +1,4 @@
-import java.time.format.SignStyle;
-
-public class EX04_02 {
+public class EX04_03 {
     public static void main(String[] args) throws InterruptedException {
         int rivit = 3;
         int sarakkeet = 2;
