@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.xml.crypto.dsig.keyinfo.RetrievalMethod;
-
 public class EX05_02 {
 public static void main(String[] args) throws InterruptedException {
     Scanner kyselija = new Scanner(System.in);
