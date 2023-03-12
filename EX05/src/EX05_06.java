@@ -1,6 +1,14 @@
 public class EX05_06 {
     public static void main(String[] args) throws InterruptedException {
-        System.out.println(onAnagrammit("kissa", "kassi"));
+        String jono1 = "kissa";
+        String jono2 = "kassi";
+        
+        if(onAnagrammit(jono1, jono2)) {
+            System.out.println(jono1 + " ja " + jono2 + " ovat anagrammit.");
+        } else {
+            System.out.println(jono1 + " ja " + jono2 + " eivät ole anagrammit.");
+        }
+        
     }   
 
     public static boolean onAnagrammit(String jono1, String jono2) {
@@ -14,8 +22,8 @@ public class EX05_06 {
             kirjaimet[jono2.charAt(i)]--;
         }
 
-        for (int lkm : kirjaimet) {
-            if (lkm != 0) {         //Jos joku ei ole 0 tiettyä kirjainta ei ole yhtä montaa molemmissa sanoissa
+        for (int lukumaara : kirjaimet) {
+            if (lukumaara != 0) {         //Jos joku ei ole 0 tiettyä kirjainta ei ole yhtä montaa molemmissa sanoissa
                 return false;
         }
     }
