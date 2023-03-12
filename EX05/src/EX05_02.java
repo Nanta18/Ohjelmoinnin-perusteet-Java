@@ -16,11 +16,11 @@ public static void main(String[] args) throws InterruptedException {
 
     public static void tulostaja(String jono1, String jono2) {
         if(jono1.length() > jono2.length()) {
-            System.out.println(jono1);
+            System.out.println(jono1 + " on pidempi");
         } else if (jono2.length() > jono1.length()) { 
-            System.out.println(jono2);
+            System.out.println(jono2 + " on pidempi");
         } else if (jono1.length() == jono2.length()) {
-            System.out.println(jono1);
+            System.out.println(jono1 + " on pidempi");
         }
     }
 }
