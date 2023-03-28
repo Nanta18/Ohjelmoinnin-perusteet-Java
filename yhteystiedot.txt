@@ -1,0 +1,15 @@
+Henkilö 1:
+Nimi: James
+Ikä: 34
+Sähköposti: james@protonmail.com
+
+Henkilö 2:
+Nimi: Sara
+Ikä: 31
+Sähköposti: sara@outlook.com
+
+Henkilö 3:
+Nimi: Alex
+Ikä: 29
+Sähköposti: alex@tutanota.com
+
