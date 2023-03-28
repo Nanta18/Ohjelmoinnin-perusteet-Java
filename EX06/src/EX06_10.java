@@ -21,5 +21,6 @@ public class EX06_10 {
           } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Lause on liian pitkä taulukolle.");
         }
+        kyselija.close();
     }
 }

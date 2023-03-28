@@ -17,5 +17,7 @@ public class EX06_09 {
             int result = (int) tulo;
             System.out.println("Kertolaskun tulos on: " + result);
         }
+        kyselija.close();
+    
     }
 }
