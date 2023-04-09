@@ -1,0 +1,35 @@
+Alibaba unveils ChatGPT alternative Tongyi Qianwen under cloud services after Baidu’s high-profile Ernie Bot launch
+
+Alibaba is the latest Chinese tech firm to follow through with a home-grown alternative to ChatGPT, but the beta release has few details available
+The e-commerce giant is launching its chatbot weeks after Baidu’s received mixed reception, as China races to advance in generative AI
+
+Alibaba Group Holding is the latest Chinese Big Tech firm to unveil its anticipated answer to ChatGPT, as the race to produce a home-grown rival to the hit chatbot from Microsoft-backed OpenAI continues to draw resources and widespread attention.
+
+Alibaba Cloud unveiled the service, called Tongyi Qianwen, on Friday through its official WeChat account, and has opened the chatbot to invite-only beta testing for corporate clients.
+
+The landing page for Tongyi Qianwen’s website is sparse with no details about the functions of the service, which is described as a “productivity assistant and idea generator” that is “dedicated to responding to human commands” through the use of a large language model (LLM).
+ChatGPT sparks investment frenzy and soul searching in China
+1 Apr 2023
+
+The chatbot’s terms of use link its development to Damo Academy, Alibaba’s in-house scientific research group. The Hangzhou-based e-commerce giant confirmed in February that its research institute was working on an artificial intelligence (AI) chatbot.
+
+Alibaba Cloud and parent Alibaba, which owns the Post, did not immediately respond to requests for comment on Friday.
+
+Damo Academy first introduced its LLM called AliceMind last September when deputy head Zhou Jingren unveiled it at the World AI Conference. He described it as a multimodal pre-trained language model that is able to process different types of inputs including text, images, audio, and video.
+
+A deck introducing AliceMind suggested that the language model could be used in a wide range of areas including e-commerce, smart city, healthcare, agriculture, smartphone photography, autonomous driving and the Internet of Things.
+
+Damo previously said that its LLM has already been used by clients and in hundreds of internal application scenarios, including integration into Taobao.
+Baidu unveils China’s answer to ChatGPT, sends stocks tumbling
+
+LLMs, which are trained through machine learning, are the underpinning of AI-powered chatbots like ChatGPT, allowing them to answer sophisticated queries, generate detailed writings, code, or other content. While China has been a global leader in some areas of AI, the US produced more than half of the world’s large language and multimodal models last year, according to the latest Artificial Intelligence Index Report from Stanford University.
+Saturday
+Inside China Tech Newsletter
+Your weekly round-up of the biggest trending tech stories from China.
+By registering, you agree to our T&C and Privacy Policy
+
+Few people on social media have been able to test Tongyi Qianwen so far, but some have already posted their comparisons to Baidu’s Ernie Bot and OpenAI’s ChatGPT. One self-media account called Zhiwei trialed the service on Friday, saying all three are largely comparable with small differences. ChatGPT struggles more with complicated Chinese, the person wrote, while Ernie Bot gives more confusing answers to questions meant to test “common sense”, though it proved more capable at creative writing tasks.
+
+Alibaba’s launch of its ChatGPT-like service comes just weeks after rival Baidu unveiled Ernie Bot. The internet search giant’s launch event in mid-March did not have a live preview, giving the beta product a rocky start, although it later received more positive feedback from early users.
+
+Tongyi Qianwen is also being revealed just days ahead of Alibaba’s annual cloud summit, which kicks off in Beijing on Tuesday.
