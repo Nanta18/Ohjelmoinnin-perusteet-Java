@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.sql.rowset.serial.SerialBlob;
-
 public class EX10_03 {
     public static void main(String[] args) {
         Scanner kyselija = new Scanner(System.in);
