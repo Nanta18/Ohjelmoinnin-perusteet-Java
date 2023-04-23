@@ -1,6 +1,4 @@
 import java.util.Scanner;
-
-
 /*
 Ohjelma kysyy käyttäjältä pituuden ja yksikön missö pituus on ja konvertoi luvun muihin yksiköihin.
 Ohjelmalla voi konvertoida sentit, jalat sekä tuumat. 
@@ -16,9 +14,10 @@ public class EX10_03 {
       
     }
 
-    /*
+    /**
     Kysyy käyttäjältä double numeron ja palauttaa sen return metodilla
     Parametriin odotetaan Scanner
+    @param kyselija scanner objekti
     */ 
     public static double kysyNumero(Scanner kyselija) {
         System.out.println("Anna pituus");
@@ -41,9 +40,10 @@ public class EX10_03 {
         return tyyppiInt;
     }
 
-    /*
+    /**
     Muuttaa sentit jaloiksi ja tuumiksi, 
     parametrina odotetaan double jonka arvo on tarkoitus muutta
+    @param pituus käyttäjän antama double joka muutetaan muihin mittayksikköihin
     */
     public static void muutaSenteistä (double pituus) {
         double jaloiksi = pituus *  0.032808;
@@ -53,9 +53,10 @@ public class EX10_03 {
         System.out.println("Tuumina: " + tuumiksi);
         }
 
-    /*
+    /**
     Muuttaa tuumat jaloiksi ja senteiksi,
     parametrina odotetaan double jonka arvo on tarkoitus muutta
+    @param pituus käyttäjän antama double joka muutetaan muihin mittayksikköihin
     */
     public static void muutaTuumista (double pituus) {
         double jaloiksi = pituus * 0.083333;
@@ -65,9 +66,10 @@ public class EX10_03 {
         System.out.println("Sentteinä: " + senteiksi );
         }
 
-    /*
+    /**
     Muuttaa jalat tuumiksi ja senteiksi,
     parametrina odotetaan double jonka arvo on tarkoitus muutta
+    @param pituus käyttäjän antama double joka muutetaan muihin mittayksikköihin
     */
     public static void muutaJaloista (double pituus) {
         double tuumiksi = pituus * 12.000;
@@ -77,9 +79,11 @@ public class EX10_03 {
         System.out.println("Tuumina: " + tuumiksi );
         }
 
-    /*
+    /**
     Valitsee mittayksikön perusteella mitä metodia konversioon käytetään,
-    parametreinä odotetaan muutettava arvo doublena ja integer josta selviää käyttäjän alkuperäinen yksikkö
+    ja integer josta selviää käyttäjän alkuperäinen yksikkö
+    @param pituus on käyttäjän antama double 
+    @param tyyppi on käyttäjän antama yksikkö merkattuna integerina
     */
     public static void muutaMuiksi(double pituus, int tyyppi) {
         if(tyyppi == 1) {
