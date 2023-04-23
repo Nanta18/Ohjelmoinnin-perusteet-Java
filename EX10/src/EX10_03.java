@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+
+/*
+Ohjelma kysyy käyttäjältä pituuden ja yksikön missö pituus on ja konvertoi luvun muihin yksiköihin.
+Ohjelmalla voi konvertoida sentit, jalat sekä tuumat. 
+ */
 public class EX10_03 {
     public static void main(String[] args) {
         Scanner kyselija = new Scanner(System.in);
@@ -11,6 +16,10 @@ public class EX10_03 {
       
     }
 
+    /*
+    Kysyy käyttäjältä double numeron ja palauttaa sen return metodilla
+    Parametriin odotetaan Scanner
+    */ 
     public static double kysyNumero(Scanner kyselija) {
         System.out.println("Anna pituus");
         String numeroStr = kyselija.nextLine();
@@ -18,6 +27,10 @@ public class EX10_03 {
         return numeroInt;
     }
 
+    /* 
+     Kysyy käyttäjältä mittayksikön ja palauttaa sen return metodilla
+     parametriin odotetaan Scanner
+    */
     public static int kysyTyyppi (Scanner kyselija) {
         System.out.println("Missä muodossa pituus on?");
         System.out.println("1. Sentteinä (cm)");
@@ -28,7 +41,11 @@ public class EX10_03 {
         return tyyppiInt;
     }
 
-    public static void muutaSenteistä (double pituus, int tyyppi) {
+    /*
+    Muuttaa sentit jaloiksi ja tuumiksi, 
+    parametrina odotetaan double jonka arvo on tarkoitus muutta
+    */
+    public static void muutaSenteistä (double pituus) {
         double jaloiksi = pituus *  0.032808;
         double tuumiksi = pituus * 0.3937;
         System.out.println("Annettu luku " + pituus + "cm");
@@ -36,7 +53,11 @@ public class EX10_03 {
         System.out.println("Tuumina: " + tuumiksi);
         }
 
-    public static void muutaTuumista (double pituus, int tyyppi) {
+    /*
+    Muuttaa tuumat jaloiksi ja senteiksi,
+    parametrina odotetaan double jonka arvo on tarkoitus muutta
+    */
+    public static void muutaTuumista (double pituus) {
         double jaloiksi = pituus * 0.083333;
         double senteiksi = pituus / 0.3937;
         System.out.println("Annettu luku " + pituus + "in");
@@ -44,7 +65,11 @@ public class EX10_03 {
         System.out.println("Sentteinä: " + senteiksi );
         }
 
-    public static void muutaJaloista (double pituus, int tyyppi) {
+    /*
+    Muuttaa jalat tuumiksi ja senteiksi,
+    parametrina odotetaan double jonka arvo on tarkoitus muutta
+    */
+    public static void muutaJaloista (double pituus) {
         double tuumiksi = pituus * 12.000;
         double senteiksi = pituus * 30.48;
         System.out.println("Annettu luku " + pituus + "ft");
@@ -52,13 +77,17 @@ public class EX10_03 {
         System.out.println("Tuumina: " + tuumiksi );
         }
 
+    /*
+    Valitsee mittayksikön perusteella mitä metodia konversioon käytetään,
+    parametreinä odotetaan muutettava arvo doublena ja integer josta selviää käyttäjän alkuperäinen yksikkö
+    */
     public static void muutaMuiksi(double pituus, int tyyppi) {
         if(tyyppi == 1) {
-            muutaSenteistä(pituus, tyyppi);
+            muutaSenteistä(pituus);
         } else if (tyyppi == 2) {
-            muutaJaloista(pituus, tyyppi);
+            muutaJaloista(pituus);
         } else if (tyyppi == 3) {
-            muutaTuumista(pituus, tyyppi);
+            muutaTuumista(pituus);
         }
     }
 }
